@@ -1,0 +1,247 @@
+{
+  "cari-accounts": [
+    {
+      "code": "CARI-001",
+      "name": "ABC İnşaat A.Ş.",
+      "type": "İşveren",
+      "taxNo": "1234567890",
+      "taxOffice": "Beşiktaş",
+      "balance": 150000,
+      "balanceType": "Borç",
+      "isRisky": false,
+      "phone": "+905074315501",
+      "email": "info@abcinsaat.com",
+      "address": "İstanbul",
+      "dueDate": "2026-03-12",
+      "nextPaymentDate": "2026-03-20",
+      "nextPaymentAmount": 15000,
+      "notes": "Stratejik işveren",
+      "documents": [
+        {
+          "id": "doc_1773069534679",
+          "name": "image 8.png",
+          "type": "Fatura",
+          "uploadDate": "2026-03-09",
+          "fileUrl": "/uploads/doc-1773069534651-455114317.png",
+          "fileSize": 5893075,
+          "originalName": "image 8.png"
+        },
+        {
+          "id": "doc_1773069602672",
+          "name": "Gemini_Generated_Image_jsacijjsacijjsac.png",
+          "type": "Ek Protokol",
+          "uploadDate": "2026-03-09",
+          "fileUrl": "/uploads/doc-1773069602666-409493165.png",
+          "fileSize": 865623,
+          "originalName": "Gemini_Generated_Image_jsacijjsacijjsac.png"
+        },
+        {
+          "id": "doc_1773069625798",
+          "name": "DilaraBayındır_ProductManager_Resume .pdf",
+          "type": "Ek Protokol",
+          "uploadDate": "2026-03-09",
+          "fileUrl": "/uploads/doc-1773069625795-950682275.pdf",
+          "fileSize": 78291,
+          "originalName": "DilaraBayÄ±ndÄ±r_ProductManager_Resume .pdf"
+        },
+        {
+          "id": "doc_1773070020217",
+          "name": "DilaraBayındır_ProductManager_Resume .pdf",
+          "type": "Diğer",
+          "uploadDate": "2026-03-09",
+          "fileUrl": "/uploads/doc-1773070020213-195358547.pdf",
+          "fileSize": 78291,
+          "originalName": "DilaraBayÄ±ndÄ±r_ProductManager_Resume .pdf"
+        }
+      ],
+      "transactions": [
+        {
+          "id": "trans_1",
+          "type": "Sipariş",
+          "date": "2025-12-15",
+          "amount": 150000,
+          "status": "Tamamlandı",
+          "description": "İnşaat malzemeleri siparişi",
+          "reference": "SIP-2025-001"
+        },
+        {
+          "id": "trans_2",
+          "type": "Teklif",
+          "date": "2025-11-20",
+          "amount": 180000,
+          "status": "Kabul Edildi",
+          "description": "Proje teklifi",
+          "reference": "TEK-2025-045"
+        },
+        {
+          "id": "trans_3",
+          "type": "İhale",
+          "date": "2025-10-10",
+          "amount": 2500000,
+          "status": "Kazanıldı",
+          "description": "Büyük ölçekli inşaat ihalesi",
+          "reference": "IHA-2025-012"
+        }
+      ],
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "code": "CARI-002",
+      "name": "XYZ Taahhüt Ltd.",
+      "taxNo": "9876543210",
+      "taxOffice": "Kadıköy",
+      "type": "Taşeron",
+      "balance": -25000,
+      "balanceType": "Borç",
+      "dueDate": "2026-03-01",
+      "nextPaymentDate": "2026-03-20",
+      "nextPaymentAmount": 25000,
+      "isRisky": true,
+      "phone": "+90 216 222 22 22",
+      "email": "iletisim@xyztaahhut.com",
+      "address": "İstanbul",
+      "notes": "Gecikmeli ödemeler",
+      "documents": [
+        {
+          "id": "doc3",
+          "name": "Fatura_2026_01.pdf",
+          "type": "Fatura",
+          "uploadDate": "2026-01-20",
+          "fileUrl": "#"
+        }
+      ],
+      "transactions": [
+        {
+          "id": "trans_4",
+          "type": "Sipariş",
+          "date": "2025-12-01",
+          "amount": 50000,
+          "status": "Beklemede",
+          "description": "Taşeron iş siparişi",
+          "reference": "SIP-2025-078"
+        },
+        {
+          "id": "trans_5",
+          "type": "Teklif",
+          "date": "2025-11-15",
+          "amount": 75000,
+          "status": "Reddedildi",
+          "description": "İnşaat teklifi",
+          "reference": "TEK-2025-089"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "code": "CARI-003",
+      "name": "Mega Malzeme Tedarik A.Ş.",
+      "taxNo": "5556667778",
+      "taxOffice": "Şişli",
+      "type": "Tedarikçi",
+      "balance": 42000,
+      "balanceType": "Alacak",
+      "dueDate": "2026-03-02",
+      "nextPaymentDate": "2026-03-03",
+      "nextPaymentAmount": 42000,
+      "isRisky": false,
+      "phone": "+905079400032",
+      "email": "satis@megamalzeme.com",
+      "address": "Ankara",
+      "notes": "Uzun vadeli anlaşma",
+      "documents": [],
+      "transactions": [
+        {
+          "id": "trans_6",
+          "type": "Sipariş",
+          "date": "2025-12-20",
+          "amount": 42000,
+          "status": "Tamamlandı",
+          "description": "Malzeme tedarik siparişi",
+          "reference": "SIP-2025-102"
+        },
+        {
+          "id": "trans_7",
+          "type": "İhale",
+          "date": "2025-11-05",
+          "amount": 150000,
+          "status": "Kaybedildi",
+          "description": "Malzeme tedarik ihalesi",
+          "reference": "IHA-2025-034"
+        }
+      ]
+    },
+    {
+      "code": "CARI-004",
+      "name": "abc",
+      "type": "Taşeron",
+      "taxNo": "a4566",
+      "taxOffice": "rgtrgr",
+      "balance": 23500,
+      "isRisky": false,
+      "phone": "05075678810",
+      "email": "abc@gmail.com",
+      "address": "csdcscs",
+      "notes": "mkdmvkmkvdvkd",
+      "documents": [],
+      "transactions": [],
+      "id": "23b0"
+    },
+    {
+      "code": "CARI-005",
+      "name": "nkmnn",
+      "type": "İşveren",
+      "taxNo": "1234567890",
+      "taxOffice": "rgtrgr",
+      "balance": 12345,
+      "balanceType": "Borç",
+      "isRisky": false,
+      "phone": "+905074315501",
+      "email": "nknknk@gmail.com",
+      "id": "1773086394066",
+      "documents": []
+    },
+    {
+      "code": "Test-001",
+      "name": "Test Firma A.Ş.",
+      "type": "İşveren",
+      "balance": 0,
+      "balanceType": "Alacak",
+      "isRisky": false,
+      "phone": "   05321234567",
+      "email": "test@example.com",
+      "id": "1773088294315",
+      "documents": [],
+      "transactions": [],
+      "createdAt": "2026-03-09T20:31:34.315Z",
+      "updatedAt": "2026-03-09T20:31:34.315Z"
+    },
+    {
+      "code": "Test-002",
+      "name": "afd",
+      "type": "Taşeron",
+      "balance": 45678,
+      "balanceType": "Alacak",
+      "isRisky": false,
+      "id": "1773137110607",
+      "documents": [],
+      "transactions": [],
+      "createdAt": "2026-03-10T10:05:10.607Z",
+      "updatedAt": "2026-03-10T10:05:10.607Z"
+    },
+    {
+      "code": "Test-003",
+      "name": "ggf",
+      "type": "Tedarikçi",
+      "balance": 56778,
+      "balanceType": "Alacak",
+      "isRisky": false,
+      "id": "1773143009133",
+      "documents": [],
+      "transactions": [],
+      "createdAt": "2026-03-10T11:43:29.133Z",
+      "updatedAt": "2026-03-10T11:43:29.133Z"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
