@@ -7,7 +7,6 @@ Bu ERP yazılımı; inşaat firmalarının şantiye yönetimi, personel takibi v
 Sunucu başlatılmadan önce PostgreSQL üzerinde veritabanı fiziksel olarak oluşturulmalıdır.
 
 ```bash
-# Terminalden veritabanını oluşturun
 createdb erp_demo
 ```
 
@@ -26,7 +25,7 @@ npm install
 
 # 3. .env dosyasını hazırlayın
 # env.example dosyasını .env olarak kopyalayıp DB bilgilerinizi güncelleyin
-cp env.example .env
+copy env.example .env
 
 # 4. Veritabanı tablolarını ve örnek verileri (seed) yükleyin
 # Bu komut 'users', 'cari_accounts' ve 'transactions' tablolarını kurar
